@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    background-image: url(pexels-vlada-karpovich-4668523.jpg);
+    color: #FFF;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: (1fr,4fr);
+
+  }
+
+.item1{
+    grid-area: 1/4/2/10 ;
+    text-align: center;
+}
+
+
+.item2{
+    grid-area: 2/4/4/10 ;
+    justify-content: center;
+   
+}
+
+#survey-form{
+    background-color: #242344;
+    padding: 50px;
+    margin: 30px;
+}
+
+#title, #description{
+    color: #242344;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+.input-space{
+    width: 100%;
+}
+
+.margin-up{
+    margin-up: 50px;
+}
+
+#submit-button{
+    background-color: #37AF65 ;
+    color: #FFF;
+}
+
+#comments{
+    color: #000;
+}
+
+.display-block{
+    display: block;
+}

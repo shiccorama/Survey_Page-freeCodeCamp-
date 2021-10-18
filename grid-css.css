@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+
+#main{
+    background-color: #EEEEEE;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(16,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.title{
+    grid-area: 1/1/2/12;
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); */
+    justify-self: center;
+}
+
+#title{
+    /* grid-area: 2/1/3/3; */
+    justify-self: center;
+    padding: 30px;
+}
+
+#sub-title{
+    /* grid-area: 2/3/3/4; */
+    justify-self: center;
+}
+
+
+
+
+
+#img-div{
+    background-color: #FFFFFF;
+    grid-area: 2/1/7/12;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(4fr, 1fr);
+    justify-self: center;
+
+}
+
+.image{
+    justify-self: center;
+    
+}
+
+#image{
+    grid-area: 1/2/6/12;
+    justify-self: center;
+    
+}
+
+#img-caption{
+    grid-area: 6/2/7/12;
+    justify-self: center;
+}
+
+#tribute-info{
+    grid-area: 7/4/15/10;
+    justify-self: center;
+}
+
+#tribute-title{
+    justify-self: center;
+    
+}
+
+#tribute-list{
+    justify-self: center;
+   
+}
+
+#quote{
+    grid-area: 15/4/16/10;
+    justify-self: center;
+}
+
+#last-line{
+    grid-area: 16/3/17/11;
+    justify-self: center;
+}
